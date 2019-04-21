@@ -1,0 +1,78 @@
+body {background: linear-gradient(270deg, #6011f3, #03e6ff);
+
+
+}
+.col-md-4 > div{
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 70%;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    
+
+   
+}
+.col-md-4{
+    padding: 20px;
+    
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 20px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  }
+  .btn-success {
+    color: #fff;
+    background-color: gray;
+    border-color: black;
+}
+ 
+.btn-success:hover {
+    color: #fff;
+    background-color: black;
+    border-color: #000000;
+}
+.btn-success.active, .btn-success:active, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: gray;
+    background-image: none;
+    border-color: black;
+  }
+  .btn-success.focus, .btn-success:focus {
+    color: #fff;
+    background-color: gray;
+    border-color: black;
+}
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+    color: #fff;
+    background-color: gray;
+    border-color: black;
+  }
+  #navi {
+    padding: 0px;
+    margin: 0px;
+    
+    
+    }
+    .container-fluid {
+      padding: 0px;
+      margin: 0px;
+    }
