@@ -18,16 +18,12 @@ var lozinke=[];
 //
 //console.log($('#user').value);
 $.each(korisniciIzSladista, function(index, korisnik) {
-$.each(korisnik,function(user_name, value){
 
-//  if( korisnik.user_name == value.user_name){
-  
-//   }
-});
 mejlovi.push(korisnik.email);
 imena.push(korisnik.user_name);
 lozinke.push(korisnik.user_password);
 });
 console.log(imena);
 console.log(lozinke);
+console.log(mejlovi);
 

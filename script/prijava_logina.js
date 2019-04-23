@@ -1,9 +1,11 @@
-$.getScript('./script/skladiste.js'); 
+$.getScript('./script/skladiste_za_login.js'); 
+$.getScript('./script/skidanje_dropdown.js'); 
 
 
 function proveraLogina(){
    
-    if(($.inArray($('#username').val(),imena))!= -1 &&   ($.inArray($('#password').val(),lozinke))!= -1 ){
-        console.log('eo');
+    if(($.inArray($('#username').val(),imena1))!= -1 &&   ($.inArray($('#password').val(),lozinke1))!= -1 ){
+        sessionStorage.setItem('ulogovaniKorisnik',$('#username').val());
+        skidanje();
     } 
 }

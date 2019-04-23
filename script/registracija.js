@@ -48,7 +48,7 @@ $(document).ready(function() {
 
                     },
                     stringLength: {
-                        min: 2,
+                        min: 8,
                     },
                     notEmpty: {
                         message: 'Please enter your Last Name'
@@ -157,6 +157,7 @@ $(document).ready(function() {
          localStorage.setItem ("korisnik" +( localStorage.length + 1), JSON.stringify(korisnik));
           
          
+         sessionStorage.setItem('ulogovaniKorisnik',korisnik.user_name);
 
 
 
