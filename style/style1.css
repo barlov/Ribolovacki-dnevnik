@@ -5,18 +5,23 @@ body {background: linear-gradient(270deg, #6011f3, #03e6ff);
 .col-md-4 > div{
     justify-content: center;
     align-items: center;
-    height: 150px;
-    width: 70%;
     border: 1px solid black;
+   
+    
     margin: auto;
     margin-bottom: 20px;
-    
+    padding: 5px;
 
    
 }
 .col-md-4{
     padding: 20px;
     
+}
+
+
+.img-thumbnail:hover {
+  transform: scale(1.2);
 }
 .dropdown-menu {
     position: absolute;
@@ -76,3 +81,4 @@ body {background: linear-gradient(270deg, #6011f3, #03e6ff);
       padding: 0px;
       margin: 0px;
     }
+ 
