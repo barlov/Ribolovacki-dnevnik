@@ -1,34 +1,35 @@
 *{
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 
 }
 body {
-  
     background: linear-gradient(270deg, #161618, #729a9e);
 
-
 }
-.col-md-4 > div{
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    margin: auto;
-    margin-bottom: 20px;
-    padding: 20px;
-
-   
-}
-.col-md-4{
-    padding: 20px;
+#navi {
+      padding: 0px;
+      margin: 0px;
     
-}
+    
+    }
+.container-fluid {
+      padding: 0px;
+      margin: 0px;
+    }
 
-.img-thumbnail:hover {
-  transform: scale(1.2);
-}
-.dropdown-menu {
+.naslov{
+      text-align: center;
+      color:rgb(102, 102, 102);
+      text-shadow: 4px 4px rgb(0, 0, 0);
+      font-size: 55px;
+      font-family: 'IM Fell English SC', serif;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: black;
+  }
+  
+.dropdown-menu{
     position: absolute;
     top: 100%;
     left: 0;
@@ -53,13 +54,12 @@ body {
     color: #fff;
     background-color: gray;
     border-color: black;
-}
- 
+  }
 .btn-success:hover {
     color: #fff;
     background-color: black;
     border-color: #000000;
-}
+  }
 .btn-success.active, .btn-success:active, .open>.dropdown-toggle.btn-success {
     color: #fff;
     background-color: gray;
@@ -70,20 +70,61 @@ body {
     color: #fff;
     background-color: gray;
     border-color: black;
-}
+  }
 .btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
     color: #fff;
     background-color: gray;
     border-color: black;
   }
-#navi {
-    padding: 0px;
-    margin: 0px;
+.text{
+    text-align: initial;
+    float: left;
     
-    
-    }
-.container-fluid {
-    padding: 0px;
-    margin: 0px;
-    }
- 
+    text-indent: 25px;
+    color:rgba(245, 245, 245, 0.616);
+}
+
+#plast{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+}
+.col-md-4{
+    height: 100%;
+}
+.mini-submenu{
+  display:none;  
+  background-color: rgba(0, 0, 0, 0);  
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+  padding: 9px;  
+  /*position: relative;*/
+  width: 42px;
+
+}
+
+.mini-submenu:hover{
+  cursor: pointer;
+}
+
+.mini-submenu .icon-bar {
+  border-radius: 1px;
+  display: block;
+  height: 2px;
+  width: 22px;
+  margin-top: 3px;
+}
+
+.mini-submenu .icon-bar {
+  background-color: #000;
+}
+
+#slide-submenu{
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
