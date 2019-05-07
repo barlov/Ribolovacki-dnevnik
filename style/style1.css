@@ -86,4 +86,37 @@ body {
     padding: 0px;
     margin: 0px;
     }
+    #fixNaslov{
+      width: 100%;
+      position: fixed;
+      z-index: 1030;
+      margin-top: 70px;
+      background: linear-gradient(270deg, #161618, #729a9e);
+   
+}
+#fixNaslov{
+  width: 100%;
+  position: fixed;
+  z-index: 1020;
+  margin-top: 50px;
+  background: linear-gradient(270deg, #161618, #729a9e);
+  border-bottom: 1px solid black;
+}
+
+.naslov{
+  text-align: center;
+  color:rgb(102, 102, 102);
+  text-shadow: 4px 4px rgb(0, 0, 0);
+  font-size: 55px;
+  font-family: 'IM Fell English SC', serif;
+ -webkit-text-stroke-width: 2px;
+ -webkit-text-stroke-color: black;
+ margin-top: 40px;
+
+ 
+
+}
+.donjiKontejner{
+  margin-top: 200px;
+}
  

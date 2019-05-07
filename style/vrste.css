@@ -8,6 +8,7 @@ body {
     background: linear-gradient(270deg, #161618, #729a9e);
 
 }
+
 #navi {
       padding: 0px;
       margin: 0px;
@@ -19,6 +20,7 @@ body {
       margin: 0px;
     }
 
+
 .naslov{
       text-align: center;
       color:rgb(102, 102, 102);
@@ -27,8 +29,33 @@ body {
       font-family: 'IM Fell English SC', serif;
      -webkit-text-stroke-width: 2px;
      -webkit-text-stroke-color: black;
+     margin-top: 40px;
+
+     
+    
   }
+  #podnaslov{
+    font-size: 13vmin;
+    padding-left: 15px;
   
+   
+  }
+
+
+ 
+.podNaslovi{
+  margin-left: 15px;
+  padding: 10px;
+  width: 50%;
+ 
+}
+
+
+
+ 
+
+
+ 
 .dropdown-menu{
     position: absolute;
     top: 100%;
@@ -77,25 +104,124 @@ body {
     border-color: black;
   }
 .text{
-    text-align: initial;
-    float: left;
-    
+    justify-content: center;
+    text-align: justify;
     text-indent: 25px;
-    color:rgba(245, 245, 245, 0.616);
+    font-size: 1.2em;
+    padding: 5px;
+    color:rgba(15, 15, 15, 0.616);
+    overflow-wrap: normal;
 }
 
-#plast{
-    margin-left: 5%;
-    margin-right: 5%;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+.fish_icon:before {
+  content: url("/slike/fish_icon.png");
+  margin-top: 9px;
+}
+
+.col-md-11{
+  margin-left: 5%;
+  margin-right: 5%;
+  border-right: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 100px;
+  box-shadow: 5px 0px 10px 10px #888888;
+  background-color: rgb(231, 231, 231);
+  overflow: auto;
+}
+
+
+
+
+.col-md-10{
+  margin-left: 15%;
+  margin-right: 5%;
+  right: 23px;
+  border-right: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 100px;
+  box-shadow: 5px 0px 10px 10px #888888;
+  background-color: rgb(231, 231, 231);
+  overflow: auto;
+  
+}
+.nekaTreca{
+  height: 100%;
+  margin-left:15px;
+  overflow: auto;
+}
+#manji{
+  position: fixed;
+  width: 180px;
+  height: 370px;
+  z-index: 1010;
+  margin-top: 60px ;
+  overflow: hidden;
+  margin-left: 0px;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+#lepljivi{
+  position: sticky !important;
+  top:0;
+}
+.slika{
+  padding: 10px;
+  min-width: 37vmin;
+  height: auto;
+}
+#slika1{
+  float: right;
+  width: 80%;
+ }
+#slika2{
+  float: left;
+}
+#slika3{
+float: right;
+}
+#slika4{
+  float: left;
+  }
+#slika5{
+  float: right;
 
 }
-.col-md-4{
-    height: 100%;
+#slika6{
+  float: left;
+
 }
+#slika7{
+  float: left;
+
+}
+#slika10{
+  float: right;
+}
+
+#slika11{
+  float: right;
+}
+
+.list-group {
+  display:none; 
+  margin-left: -10px; 
+  margin-right: -50px; 
+  height: 100%;
+  padding-right: 50px; 
+  overflow-y: scroll;
+  margin-left: 3px;
+}
+
+ 
+
+
 .mini-submenu{
-  display:none;  
   background-color: rgba(0, 0, 0, 0);  
   border: 1px solid rgba(0, 0, 0, 0.9);
   border-radius: 4px;
@@ -104,7 +230,6 @@ body {
   width: 42px;
 
 }
-
 .mini-submenu:hover{
   cursor: pointer;
 }
@@ -115,6 +240,7 @@ body {
   height: 2px;
   width: 22px;
   margin-top: 3px;
+
 }
 
 .mini-submenu .icon-bar {
@@ -127,4 +253,6 @@ body {
   padding: 0 8px;
   border-radius: 4px;
   cursor: pointer;
+
 }
+
