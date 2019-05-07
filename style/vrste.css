@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+body {
+    background: linear-gradient(270deg, #161618, #729a9e);
+
+}
+
+#navi {
+      padding: 0px;
+      margin: 0px;
+    
+    
+    }
+.container-fluid {
+      padding: 0px;
+      margin: 0px;
+    }
+
+
+.naslov{
+      text-align: center;
+      color:rgb(102, 102, 102);
+      text-shadow: 4px 4px rgb(0, 0, 0);
+      font-size: 55px;
+      font-family: 'IM Fell English SC', serif;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: black;
+     margin-top: 40px;
+
+     
+    
+  }
+  #podnaslov{
+    font-size: 13vmin;
+    padding-left: 15px;
+  
+   
+  }
+
+
+ 
+.podNaslovi{
+  margin-left: 15px;
+  padding: 10px;
+  width: 50%;
+ 
+}
+
+
+
+ 
+
+
+ 
+.dropdown-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 20px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  }
+.btn-success {
+    color: #fff;
+    background-color: gray;
+    border-color: black;
+  }
+.btn-success:hover {
+    color: #fff;
+    background-color: black;
+    border-color: #000000;
+  }
+.btn-success.active, .btn-success:active, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: gray;
+    background-image: none;
+    border-color: black;
+  }
+.btn-success.focus, .btn-success:focus {
+    color: #fff;
+    background-color: gray;
+    border-color: black;
+  }
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+    color: #fff;
+    background-color: gray;
+    border-color: black;
+  }
+.text{
+    justify-content: center;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 1.2em;
+    padding: 5px;
+    color:rgba(15, 15, 15, 0.616);
+    overflow-wrap: normal;
+}
+
+.fish_icon:before {
+  content: url("/slike/fish_icon.png");
+  margin-top: 9px;
+}
+
+.col-md-11{
+  margin-left: 5%;
+  margin-right: 5%;
+  border-right: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 100px;
+  box-shadow: 5px 0px 10px 10px #888888;
+  background-color: rgb(231, 231, 231);
+  overflow: auto;
+}
+
+
+
+
+.col-md-10{
+  margin-left: 15%;
+  margin-right: 5%;
+  right: 23px;
+  border-right: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 100px;
+  box-shadow: 5px 0px 10px 10px #888888;
+  background-color: rgb(231, 231, 231);
+  overflow: auto;
+  
+}
+.nekaTreca{
+  height: 100%;
+  margin-left:15px;
+  overflow: auto;
+}
+#manji{
+  position: fixed;
+  width: 180px;
+  height: 370px;
+  z-index: 1010;
+  margin-top: 60px ;
+  overflow: hidden;
+  margin-left: 0px;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+#lepljivi{
+  position: sticky !important;
+  top:0;
+}
+.slika{
+  padding: 10px;
+  min-width: 37vmin;
+  height: auto;
+}
+#slika1{
+  float: right;
+  width: 80%;
+ }
+#slika2{
+  float: left;
+}
+#slika3{
+float: right;
+}
+#slika4{
+  float: left;
+  }
+#slika5{
+  float: right;
+
+}
+#slika6{
+  float: left;
+
+}
+#slika7{
+  float: left;
+
+}
+#slika10{
+  float: right;
+}
+
+#slika11{
+  float: right;
+}
+
+.list-group {
+  display:none; 
+  margin-left: -10px; 
+  margin-right: -50px; 
+  height: 100%;
+  padding-right: 50px; 
+  overflow-y: scroll;
+  margin-left: 3px;
+}
+
+ 
+
+
+.mini-submenu{
+  background-color: rgba(0, 0, 0, 0);  
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+  padding: 9px;  
+  /*position: relative;*/
+  width: 42px;
+
+}
+.mini-submenu:hover{
+  cursor: pointer;
+}
+
+.mini-submenu .icon-bar {
+  border-radius: 1px;
+  display: block;
+  height: 2px;
+  width: 22px;
+  margin-top: 3px;
+
+}
+
+.mini-submenu .icon-bar {
+  background-color: #000;
+}
+
+#slide-submenu{
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+

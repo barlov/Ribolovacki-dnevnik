@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  
+  }
+  body {
+    
+      background: linear-gradient(270deg, #161618, #729a9e);
+  
+  
+  }
+
+  .col-md-4 > div{
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      margin: auto;
+      margin-bottom: 20px;
+      padding: 20px;
+  
+     
+  }
+  .col-md-4{
+      padding: 20px;
+      
+  }
+
+ 
+ 
+.img-thumbnail:hover{
+    transform: scale(1.2)
+
+}
+  .caption{
+    overflow-wrap: break-word;
+    overflow-y:auto;
+    height: 100px;
+    margin-top: 10px;
+    border:1px solid black;
+  }
+  
+  
+
+  .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1000;
+      display: none;
+      float: left;
+      min-width: 160px;
+      padding: 20px;
+      margin: 2px 0 0;
+      font-size: 14px;
+      text-align: left;
+      list-style: none;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ccc;
+      border: 1px solid rgba(0,0,0,.15);
+      border-radius: 4px;
+      -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+      box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    }
+  .btn-success {
+      color: #fff;
+      background-color: gray;
+      border-color: black;
+  }
+   
+  .btn-success:hover {
+      color: #fff;
+      background-color: black;
+      border-color: #000000;
+  }
+  .btn-success.active, .btn-success:active, .open>.dropdown-toggle.btn-success {
+      color: #fff;
+      background-color: gray;
+      background-image: none;
+      border-color: black;
+    }
+  .btn-success.focus, .btn-success:focus {
+      color: #fff;
+      background-color: gray;
+      border-color: black;
+  }
+  .btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+      color: #fff;
+      background-color: gray;
+      border-color: black;
+    }
+  #navi {
+      padding: 0px;
+      margin: 0px;
+      
+      
+      }
+  .container-fluid {
+      padding: 0px;
+      margin: 0px;
+      }
+      #fixNaslov{
+        width: 100%;
+        position: fixed;
+        z-index: 1030;
+        margin-top: 70px;
+        background: linear-gradient(270deg, #161618, #729a9e);
+     
+  }
+  #fixNaslov{
+    width: 100%;
+    position: fixed;
+    z-index: 1020;
+    margin-top: 50px;
+    background: linear-gradient(270deg, #161618, #729a9e);
+    border-bottom: 1px solid black;
+  }
+  
+  .naslov{
+    text-align: center;
+    color:rgb(102, 102, 102);
+    text-shadow: 4px 4px rgb(0, 0, 0);
+    font-size: 55px;
+    font-family: 'IM Fell English SC', serif;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+   margin-top: 40px;
+  
+   
+  
+  }
+  .donjiKontejner{
+    margin-top: 100px;
+    overflow: hidden;
+  }
+   

@@ -1,28 +1,16 @@
-
-$.getScript('./script/skladiste.js'); 
-
-
-//console.log(mejlovi);
-//console.log(imena);
-//$('#user').focusout(provera);
-
-
-function proveraImena (proveraVrednostiPolja){
- 
+$.getScript('./script/skladiste.js');
+function proveraImena(proveraVrednostiPolja) {
    var provera = true;
-if(($.inArray(proveraVrednostiPolja,imena))!= -1){
-   // $('#user').css('background-color','red');
-    provera = false;
+   if (($.inArray(proveraVrednostiPolja, imena)) != -1) {
+      provera = false;
+   }
+   return provera;
 }
-return provera;
+
+function proveraMejla(proveraVrednostiPolja) {
+   var provera = true;
+   if (($.inArray(proveraVrednostiPolja, mejlovi)) != -1) {
+      provera = false;
+   }
+   return provera;
 }
-function proveraMejla (proveraVrednostiPolja){
- 
-    var provera = true;
- if(($.inArray(proveraVrednostiPolja,mejlovi))!= -1){
-    // $('#user').css('background-color','red');
-     provera = false;
- }
- return provera;
- }
- 
